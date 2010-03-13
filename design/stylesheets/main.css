@@ -1,7 +1,6 @@
 body {
   background-image: url('images/bg.png');
   font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
-  
 }
 
 .white {
@@ -25,15 +24,10 @@ body {
 }
 
 .photos {
+  background-image: url('images/transparent.png');
   padding: 10px;
-  background-color: black;
-  opacity: 0.35;
   overflow: auto;
   height: 235px;
-}
-
-.photos img {
-  opacity: 1.0;
 }
 
 img {

@@ -1,0 +1,1 @@
+* See if transparency, for the photos background, in IE6 is important. Because a transparent png doesn't work. (See http://www.stevenyork.com/tutorial/pure_css_opacity_and_how_to_have_opaque_children)
