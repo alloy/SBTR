@@ -1,5 +1,19 @@
 body {
   background-image: url('images/bg.png');
+  font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+  
+}
+
+.white {
+  color: #e4e2e3;
+}
+
+.green {
+	color: #9aa92d;
+}
+
+.header {
+  font-weight: bold;
 }
 
 .header .alpha {
