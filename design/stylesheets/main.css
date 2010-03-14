@@ -8,7 +8,7 @@ body {
 }
 
 .green {
-	color: #9aa92d;
+  color: #9aa92d;
 }
 
 .header {
@@ -23,13 +23,58 @@ body {
   font-size: 25px;
 }
 
-.photos {
-  background-image: url('images/transparent.png');
-  padding: 10px;
-  overflow: auto;
-  height: 235px;
+.content_wrapper {
+  position: relative;
 }
 
-img {
+.content_wrapper h4 {
+  background-image: url('images/transparent.png');
+  padding: 0 10px; /* this still overlaps on the bottom */
+  position: absolute;
+  left 0;
+}
+
+.content {
+  margin-top: 22px;
+  overflow-x: auto;
+}
+
+#photographer_1 {
+  top: 0;
+}
+
+#photographer_2 {
+  top: 275px;
+}
+
+.photos_background {
+  z-index: -1;
+  background-image: url('images/transparent.png');
+  position: absolute;
+  left: 0;
+  height: 235px;
+  width: 1000px;
+}
+
+#photos_background_1 {
+  top: 0;
+}
+
+#photos_background_2 {
+  top: 275px;
+}
+
+.photos {
+  z-index: 99;
+  padding: 10px;
+  white-space: nowrap;
+  margin-bottom: 35px;
+}
+
+.photos.omega {
+  margin-bottom: 0;
+}
+
+.photos img {
   margin-right: 10px;
 }
